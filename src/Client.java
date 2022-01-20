@@ -6,9 +6,9 @@ import java.net.UnknownHostException;
 
 public class Client {
 
-	final static String SERVER_IP = "203.228.62.31"; // "final"상수는 대문자 사용,단어와 단어사이에 '_' 사용
+	final static String SERVER_IP = "127.0.0.1"; // "final"상수는 대문자 사용,단어와 단어사이에 '_' 사용
 	final static int SERVER_PORT = 1225;
-	final static String MESSAGE_TO_SERVER = "Hi, Sever!";
+	final static String MESSAGE_TO_SERVER = "hi server";
 
 	public static void main(String[] args) {
 		Socket socket = null;
