@@ -14,9 +14,9 @@ public class Sever extends Thread {
 				serverSocket = new ServerSocket(SERVER_PORT);
 			
 				while(true) {
-					System.out.println("socket ¿¬°á ´ë±â");
+					System.out.println("socket ì—°ê²° ëŒ€ê¸°");
 					Socket socket = serverSocket.accept();
-					System.out.println("host"+socket.getInetAddress()+"Åë½Å ¿¬°á¼º°ø");
+					System.out.println("host"+socket.getInetAddress()+"í†µì‹  ì—°ê²°ì„±ê³µ");
 					
 					InputStream is = socket.getInputStream();
 					OutputStream os = socket.getOutputStream();

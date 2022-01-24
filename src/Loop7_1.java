@@ -2,7 +2,7 @@ import java.time.LocalDateTime;
 
 /**
  * 
- * ÇöÀç½Ã°£À» Ãâ·ÂÇØº¸¼¼¿ä
+ * í˜„ì¬ì‹œê°„ì„ ì¶œë ¥í•´ë³´ì„¸ìš”
  * @author smart12
  *
  */

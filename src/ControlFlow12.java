@@ -3,63 +3,63 @@ import java.util.Scanner;
 public class ControlFlow12 {
 
 	public static void main(String[] args) {
-		//»ç¿ëÀÚ·ÎºÎÅÍ ÀÔ·ÂÀ» ¹Ş±âÀ§ÇÑ scan°´Ã¼ »ı¼º
+		//ì‚¬ìš©ìë¡œë¶€í„° ì…ë ¥ì„ ë°›ê¸°ìœ„í•œ scanê°ì²´ ìƒì„±
 		Scanner scan = new Scanner(System.in);
-		System.out.println("³âÂ÷¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-		int i = 0; //³ª´Â xx³âÂ÷´Ù.
+		System.out.println("ë…„ì°¨ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+		int i = 0; //ë‚˜ëŠ” xxë…„ì°¨ë‹¤.
 		
 		do {
-			System.out.println("usage:¾ç¼ö°ªÀ» ÀÔ·ÂÇÏ¼Å¾ßÇÕ´Ï´Ù");
+			System.out.println("usage:ì–‘ìˆ˜ê°’ì„ ì…ë ¥í•˜ì…”ì•¼í•©ë‹ˆë‹¤");
 			i = scan.nextInt();
 		} while (i < 1);
 		
 		
 			switch (i) {
 			case 1:
-				System.out.println("¿¬Â÷°¹¼ö:11");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:11");
 				break;
 			case 2:
-				System.out.println("¿¬Â÷°¹¼ö:15");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:15");
 				break;
 			case 3:
 			case 4:
-				System.out.println("¿¬Â÷°¹¼ö:16");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:16");
 				break;
 			case 5:
 			case 6:
-				System.out.println("¿¬Â÷°¹¼ö:17");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:17");
 				break;
 			case 7:
 			case 8:
-				System.out.println("¿¬Â÷°¹¼ö:18");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:18");
 				break;
 			case 9:
 			case 10:
-				System.out.println("¿¬Â÷°¹¼ö:19");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:19");
 				break;
 			case 11:
 			case 12:
-				System.out.println("¿¬Â÷°¹¼ö:20");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:20");
 				break;
 			case 13:
 			case 14:
-				System.out.println("¿¬Â÷°¹¼ö:21");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:21");
 				break;
 			case 15:
 			case 16:
-				System.out.println("¿¬Â÷°¹¼ö:22");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:22");
 				break;
 			case 17:
 			case 18:
-				System.out.println("¿¬Â÷°¹¼ö:23");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:23");
 				break;
 			case 19:
 			case 20:
-				System.out.println("¿¬Â÷°¹¼ö:24");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:24");
 				break;
 
 			default:
-				System.out.println("¿¬Â÷°¹¼ö:25");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:25");
 				break;
 			}
 

@@ -1,6 +1,6 @@
 /**
  * 
- * ¹®ÀÚ¿­ String Å¬·¡½º
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤
  *
  */
 public class StringExam2 {
@@ -9,8 +9,8 @@ public class StringExam2 {
 		String str = new String("ABC");
 		String str2 = new String("ABC");
 		System.out.println(str == str2);
-		System.out.println(str.equals(str2));		//¹®ÀÚ¿­¿¡¼­ °°ÀºÁö ºñ±³ÇÒ ¶§ »ç¿ë
-		System.out.println(str);					//¹®ÀÚ¿­¿¡¼­´Â '==' »ç¿ëX
+		System.out.println(str.equals(str2));		//ë¬¸ìì—´ì—ì„œ ê°™ì€ì§€ ë¹„êµí•  ë•Œ ì‚¬ìš©
+		System.out.println(str);					//ë¬¸ìì—´ì—ì„œëŠ” '==' ì‚¬ìš©X
 		System.out.println(str2);
 	}
 

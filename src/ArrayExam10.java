@@ -1,8 +1,8 @@
 /**
  * 
- * ÁÖ¾îÁø ¹è¿­ÀÇ Ç×¸ñ¿¡¼­ ÃÖ´ë°ªÀ» ±¸ÇØº¸¼¼¿ä.(for¹®À» ÀÌ¿ëÇÏ¼¼¿ä)
+ * ì£¼ì–´ì§„ ë°°ì—´ì˜ í•­ëª©ì—ì„œ ìµœëŒ€ê°’ì„ êµ¬í•´ë³´ì„¸ìš”.(forë¬¸ì„ ì´ìš©í•˜ì„¸ìš”)
  * 
- * {1, 5, 3, 8, 2} °á°ú°ªÀº 8
+ * {1, 5, 3, 8, 2} ê²°ê³¼ê°’ì€ 8
  *
  */
 public class ArrayExam10 {
@@ -12,12 +12,12 @@ public class ArrayExam10 {
 		int[] j = { 1, 5, 3, 8, 2 };
 
 		for (int i = 0; i < j.length; i++) {
-			if (j[i] > max) {					//j°¡ maxº¸´Ù Å¬ ¶§
-				max = j[i];						//j°ªÀ» max¿¡ ÀúÀå
+			if (j[i] > max) {					//jê°€ maxë³´ë‹¤ í´ ë•Œ
+				max = j[i];						//jê°’ì„ maxì— ì €ìž¥
 			}
 
 		}
-		System.out.println("ÃÖ´ë°ª : "+max);		//max °ªÀ» Ãâ·Â
+		System.out.println("ìµœëŒ€ê°’ : "+max);		//max ê°’ì„ ì¶œë ¥
 
 	}
 }

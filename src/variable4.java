@@ -6,7 +6,7 @@ public class variable4 {
 		boolean truth;
 		truth=num<50;
 		if(truth);
-			System.out.println("°è»ê°á°ú 50º¸´ÙÀÛ½À´Ï´Ù");
+			System.out.println("ê³„ì‚°ê²°ê³¼ 50ë³´ë‹¤ì‘ìŠµë‹ˆë‹¤");
 	
 		
 	}

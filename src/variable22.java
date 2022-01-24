@@ -10,13 +10,13 @@ public class variable22 {
 		double d2 = 10.0;
 		char c = 'A';
 		float f = .0f;
-		boolean sw =true; //0ÀÌ ¾Æ´Ñ°æ¿ì true
-		boolean sw2 = false; //0ÀÏ°æ¿ì false
+		boolean sw =true; //0ì´ ì•„ë‹Œê²½ìš° true
+		boolean sw2 = false; //0ì¼ê²½ìš° false
 		
-		System.out.println("±Û\tÀÚ");
-		System.out.println("±Û\nÀÚ");
-		System.out.println("±Û\"ÀÚ");
-		System.out.println("±Û\\ÀÚ");
+		System.out.println("ê¸€\tì");
+		System.out.println("ê¸€\nì");
+		System.out.println("ê¸€\"ì");
+		System.out.println("ê¸€\\ì");
 	}
 
 

@@ -1,22 +1,22 @@
 /**
  * 
- * ¹®ÀÚ¿­ String Å¬·¡½º
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤
  *
  */
 public class StringExam {
 
 	public static void main(String[] args) {
 		String s;
-		s = new String("ABC");				// new String »ç¿ëÇÏ¿© º¯¼ö¼±¾ğ
+		s = new String("ABC");				// new String ì‚¬ìš©í•˜ì—¬ ë³€ìˆ˜ì„ ì–¸
 		System.out.println(s);
 		//---------------------------
 		String s2 = "ABVVDSG";
-											// new String »ç¿ëÇÏÁö¾Ê°í º¯¼ö¼±¾ğ
+											// new String ì‚¬ìš©í•˜ì§€ì•Šê³  ë³€ìˆ˜ì„ ì–¸
 		System.out.println(s2);
 		//---------------------------
-		StringBuffer sb = null;				// StringBuffer 'sb'¸¦ ¼±¾ğ
-		sb = new StringBuffer("ABAB");		// StringBuffer 'sb'¿¡ ¹®ÀÚ °ªÀ» ÀÔ·Â
-		sb.append("123");					// 'sb' °ª¿¡ ¹®ÀÚ¸¦ µ¡ºÙÀÏ¶§
+		StringBuffer sb = null;				// StringBuffer 'sb'ë¥¼ ì„ ì–¸
+		sb = new StringBuffer("ABAB");		// StringBuffer 'sb'ì— ë¬¸ì ê°’ì„ ì…ë ¥
+		sb.append("123");					// 'sb' ê°’ì— ë¬¸ìë¥¼ ë§ë¶™ì¼ë•Œ
 		sb.append("2435235");
 		
 		System.out.println(sb);

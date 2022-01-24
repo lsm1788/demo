@@ -2,8 +2,8 @@
 public class variable3 {
 
 	public static void main(String[] args) {
-		double ÇÑ±Û = 10d + 10;
-		System.out.println(ÇÑ±Û);
+		double í•œê¸€ = 10d + 10;
+		System.out.println(í•œê¸€);
 	}
 	
 }

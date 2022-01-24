@@ -2,19 +2,19 @@
 public class Operator4 {
 
 	public static void main(String[] args) {
-		//Áõ°¨¿¬»êÀÚ ++ (+1°ú °°Àº¼ö½Ä), -- (-1°ú °°Àº¼ö½Ä)
+		//ì¦ê°ì—°ì‚°ì ++ (+1ê³¼ ê°™ì€ìˆ˜ì‹), -- (-1ê³¼ ê°™ì€ìˆ˜ì‹)
 		int i = 0;
 		i++;
 		--i;
 		System.out.println(++i);
 		
 		System.out.println("----------------------");
-		//ºÎÁ¤¿¬»êÀÚ !
+		//ë¶€ì •ì—°ì‚°ì !
 		boolean b = false;
 		System.out.println(!b);
 		
 		System.out.println("----------------------");
-		//ºñ±³¿¬»êÀÚ >, >=, <, <=, ==, !=  °á°ú´Â boolean
+		//ë¹„êµì—°ì‚°ì >, >=, <, <=, ==, !=  ê²°ê³¼ëŠ” boolean
 		int m = 10, n =5 ;
 		System.out.println(m > n);
 		System.out.println(m >= n);
@@ -22,7 +22,7 @@ public class Operator4 {
 		System.out.println(m <= n);
 		System.out.println(m == n);
 		System.out.println("----------------------");
-		//³í¸®¿¬»êÀÚ ( and[&&] (µÑ´Ù ÂüÀÏ¶§¸¸ Âü), or[||] (ÇÏ³ª¸¸ ÂüÀÌ¿©µµ Âü), not[!] (ÂüÀÏ¶© °ÅÁş, °ÅÁşÀÏ¶© Âü))
+		//ë…¼ë¦¬ì—°ì‚°ì ( and[&&] (ë‘˜ë‹¤ ì°¸ì¼ë•Œë§Œ ì°¸), or[||] (í•˜ë‚˜ë§Œ ì°¸ì´ì—¬ë„ ì°¸), not[!] (ì°¸ì¼ë• ê±°ì§“, ê±°ì§“ì¼ë• ì°¸))
 		System.out.println(false && false);
 		System.out.println(false && true);
 		System.out.println(true && false);
@@ -36,7 +36,7 @@ public class Operator4 {
 		System.out.println(!false);
 		System.out.println(!true);
 		System.out.println("--------------------");
-		//ºñÆ®¿¬»êÀÚ &(and) |(or) ^(xor) ~(not) <<(shift) >> >>>
+		//ë¹„íŠ¸ì—°ì‚°ì &(and) |(or) ^(xor) ~(not) <<(shift) >> >>>
 		byte bitNum1 = 15;
 		byte bitNum2 = 3;
 		System.out.println(bitNum1 & bitNum2);

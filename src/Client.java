@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 
 public class Client {
 
-	final static String SERVER_IP = "127.0.0.1"; // "final"»ó¼ö´Â ´ë¹®ÀÚ »ç¿ë,´Ü¾î¿Í ´Ü¾î»çÀÌ¿¡ '_' »ç¿ë
+	final static String SERVER_IP = "127.0.0.1"; // "final"ìƒìˆ˜ëŠ” ëŒ€ë¬¸ì ì‚¬ìš©,ë‹¨ì–´ì™€ ë‹¨ì–´ì‚¬ì´ì— '_' ì‚¬ìš©
 	final static int SERVER_PORT = 1225;
 	final static String MESSAGE_TO_SERVER = "hi server";
 
@@ -14,7 +14,7 @@ public class Client {
 		Socket socket = null;
 		try {
 			socket = new Socket(SERVER_IP, SERVER_PORT);
-			System.out.println("socket ¿¬°á");
+			System.out.println("socket ì—°ê²°");
 			
 			InputStream is = socket.getInputStream();
 			OutputStream os = socket.getOutputStream();

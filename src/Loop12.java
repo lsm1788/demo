@@ -5,7 +5,7 @@ public class Loop12 {
 
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
-			//i°ªÀÌ 5¸é ¸ØÃç¶ó.
+			//iê°’ì´ 5ë©´ ë©ˆì¶°ë¼.
 			if(i == 5) {
 				break;	
 			}

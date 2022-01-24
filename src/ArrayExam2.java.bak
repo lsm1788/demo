@@ -1,9 +1,9 @@
-	
-public class ArrayExam {
+
+public class ArrayExam2 {
 
 	public static void main(String[] args) {
-		int [] j = new int[3];
-		j[0] = 10;
+		int [] j = {10,20,30};
+		
 		System.out.println(j[0]);
 	}
 

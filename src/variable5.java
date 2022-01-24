@@ -11,11 +11,11 @@ public class variable5 {
 		
 		//end
 		/*
-		 * i°ªÀº20, j°ªÀº 10
+		 * iê°’ì€20, jê°’ì€ 10
 		 */
 		
-		System.out.println("i°ªÀº" + i);
-		System.out.println("j°ªÀº" + j);		
+		System.out.println("iê°’ì€" + i);
+		System.out.println("jê°’ì€" + j);		
 	}
 	
 }

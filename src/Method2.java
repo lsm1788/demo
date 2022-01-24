@@ -19,7 +19,7 @@ public class Method2 {
 
 		}
 		if (rowCntChk != (65 * 5)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int colCntChk = 0;
@@ -32,7 +32,7 @@ public class Method2 {
 
 		}
 		if (colCntChk != (65 * 5)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int leftTop = 0;
@@ -45,7 +45,7 @@ public class Method2 {
 			}
 		}
 		if (leftTop != 65) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int rightTop = 0;
@@ -58,11 +58,11 @@ public class Method2 {
 			}
 		}
 		if (rightTop != 65) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 
 		}
-		System.out.println("Á¤´äÀÔ´Ï´Ù.¤º¤»¤º¤»");
+		System.out.println("ì •ë‹µìž…ë‹ˆë‹¤.ã…Šã…‹ã…Šã…‹");
 
 	}
 

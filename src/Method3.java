@@ -4,7 +4,7 @@ public class Method3 {
 
 	public static void aaa(int i) {
 
-		//int i = 0; //³ª´Â xx°³¿ùÂ÷´Ù.
+		//int i = 0; //ë‚˜ëŠ” xxê°œì›”ì°¨ë‹¤.
 	
 		int i2 = i / 12;
 		if(i%12 >0) {
@@ -13,50 +13,50 @@ public class Method3 {
 		
 			switch (i2) {
 			case 1:
-				System.out.println("¿¬Â÷°¹¼ö:"+(i-1)+"°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:"+(i-1)+"ê°œ");
 				break;
 			case 2:
-				System.out.println("¿¬Â÷°¹¼ö:15°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:15ê°œ");
 				break;
 			case 3:
 			case 4:
-				System.out.println("¿¬Â÷°¹¼ö:16°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:16ê°œ");
 				break;
 			case 5:
 			case 6:
-				System.out.println("¿¬Â÷°¹¼ö:17°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:17ê°œ");
 				break;
 			case 7:
 			case 8:
-				System.out.println("¿¬Â÷°¹¼ö:18°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:18ê°œ");
 				break;
 			case 9:
 			case 10:
-				System.out.println("¿¬Â÷°¹¼ö:19°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:19ê°œ");
 				break;
 			case 11:
 			case 12:
-				System.out.println("¿¬Â÷°¹¼ö:20°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:20ê°œ");
 				break;
 			case 13:
 			case 14:
-				System.out.println("¿¬Â÷°¹¼ö:21°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:21ê°œ");
 				break;
 			case 15:
 			case 16:
-				System.out.println("¿¬Â÷°¹¼ö:22°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:22ê°œ");
 				break;
 			case 17:
 			case 18:
-				System.out.println("¿¬Â÷°¹¼ö:23°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:23ê°œ");
 				break;
 			case 19:
 			case 20:
-				System.out.println("¿¬Â÷°¹¼ö:24°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:24ê°œ");
 				break;
 
 			default:
-				System.out.println("¿¬Â÷°¹¼ö:25°³");
+				System.out.println("ì—°ì°¨ê°¯ìˆ˜:25ê°œ");
 				break;
 			}
 	}

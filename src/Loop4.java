@@ -1,6 +1,6 @@
 /**
- * for¹®
- * 2022³â 1¿ù´Ş ÀÏÀÚ¸¦ Ãâ·ÂÇÏ½Ã¿À(1~31) ¹İº¹ÇØ¼­ Ãâ·ÂÇØº¸¼¼¿ä
+ * forë¬¸
+ * 2022ë…„ 1ì›”ë‹¬ ì¼ìë¥¼ ì¶œë ¥í•˜ì‹œì˜¤(1~31) ë°˜ë³µí•´ì„œ ì¶œë ¥í•´ë³´ì„¸ìš”
  * @author smart12
  *
  */
@@ -9,7 +9,7 @@ public class Loop4 {
 	public static void main(String[] args) {
 		
 		for(int i = 1; i <= 31; i++) {
-			System.out.printf("%dÀÏ %n", i );
+			System.out.printf("%dì¼ %n", i );
 			
 		}
 	}

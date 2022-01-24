@@ -1,5 +1,5 @@
 /**
- * 3*3¸¶¹æÁø
+ * 3*3ë§ˆë°©ì§„
  * 
  * @author smart12
  *
@@ -24,7 +24,7 @@ public class ArrayExam6 {
 			
 		}
 		if(rowCntChk != (15*3)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int colCntChk = 0;
@@ -39,7 +39,7 @@ public class ArrayExam6 {
 			
 		}
 		if(colCntChk !=(15*3)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int leftTop = 0;
@@ -52,7 +52,7 @@ public class ArrayExam6 {
 			}		
 		}
 		if(leftTop != 15) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		int rightTop = 0;
@@ -65,11 +65,11 @@ public class ArrayExam6 {
 			}		
 		}
 		if(rightTop != 15) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		
 		}
-		System.out.println("Á¤´äÀÔ´Ï´Ù.¤º¤»¤º¤»");
+		System.out.println("ì •ë‹µìž…ë‹ˆë‹¤.ã…Šã…‹ã…Šã…‹");
 	}
 
 }

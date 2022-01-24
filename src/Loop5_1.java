@@ -1,6 +1,6 @@
 /**
- * for¹®
- * 2022³â ¿ùº° ÀÏÀÚ¸¦ Ãâ·ÂÇÏ½Ã¿À(1~31) 
+ * forë¬¸
+ * 2022ë…„ ì›”ë³„ ì¼ìë¥¼ ì¶œë ¥í•˜ì‹œì˜¤(1~31) 
  * @author smart12
  *
  */
@@ -28,7 +28,7 @@ public class Loop5_1 {
 				break;
 			}
 			
-			System.out.print(j+"¿ù ");
+			System.out.print(j+"ì›” ");
 			j++;
 			
 			int i = 1;

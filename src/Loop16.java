@@ -1,9 +1,9 @@
 /**
- * for¹® 
- * 50¹ø ±îÁö ¹İº¹ÇÏ¼¼¿ä
- * 369¸¦ Ãâ·ÂÇÏ¼¼¿ä 
- * 3ÀÇ ¹è¼öÀÏ¶§´Â Â¦ ÀÌ¶ó°í Ãâ·ÂÇÏ¼¼¿ä 
- * system.out.println("Â¦");
+ * forë¬¸ 
+ * 50ë²ˆ ê¹Œì§€ ë°˜ë³µí•˜ì„¸ìš”
+ * 369ë¥¼ ì¶œë ¥í•˜ì„¸ìš” 
+ * 3ì˜ ë°°ìˆ˜ì¼ë•ŒëŠ” ì§ ì´ë¼ê³  ì¶œë ¥í•˜ì„¸ìš” 
+ * system.out.println("ì§");
  *
  */
 public class Loop16 {
@@ -14,7 +14,7 @@ public class Loop16 {
 		while (i <= 49) {
 			i++;
 			if (i % 3 == 0) {
-				System.out.println("Â¦");
+				System.out.println("ì§");
 				continue;
 			}
 			System.out.println(i);

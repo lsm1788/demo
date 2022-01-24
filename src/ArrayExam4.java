@@ -1,5 +1,5 @@
 /**
- * ±¹,¿µ,¼ö ÃÑ ÇÕ Æò±Õ ¼ºÀûÃ³¸®ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+ * êµ­,ì˜,ìˆ˜ ì´ í•© í‰ê·  ì„±ì ì²˜ë¦¬í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
  * 
  * 
  *
@@ -8,14 +8,14 @@ public class ArrayExam4 {
 
 	public static void main(String[] args) {
 		int[] grade = new int [5];
-		System.out.println(grade.length);		//¹è¿­ÀÇ ±æÀÌ .length
+		System.out.println(grade.length);		//ë°°ì—´ì˜ ê¸¸ì´ .length
 		grade[0] = 98;
 		grade[1] = 19;
 		grade[2] = 50;
 		grade[3] = grade[0] + grade[1] + grade[2];
 		grade[4] = grade[3] / 3;
-		System.out.printf("±¹¾î:%d, ¿µ¾î:%d, ¼öÇĞ:%d", grade[0], grade[1], grade[2]);
-		System.out.printf("%nÃÑÁ¡:%d %nÆò±Õ:%d", grade[3], grade[4]);
+		System.out.printf("êµ­ì–´:%d, ì˜ì–´:%d, ìˆ˜í•™:%d", grade[0], grade[1], grade[2]);
+		System.out.printf("%nì´ì :%d %ní‰ê· :%d", grade[3], grade[4]);
 		
 
 	}

@@ -1,6 +1,6 @@
 /**
- * for¹®
- * 1ºÎÅÍ 10±îÁö ÇÕÀ» ±¸ÇÏ¼¼¿ä
+ * forë¬¸
+ * 1ë¶€í„° 10ê¹Œì§€ í•©ì„ êµ¬í•˜ì„¸ìš”
  * @author smart12
  *
  *	1 3 5 7 9  
@@ -9,18 +9,18 @@
 public class Loop8 {
 
 	public static void main(String[] args) {
-		int odd = 0; //È¦¼öÇÕ
-		int even = 0; //Â¦¼öÇÕ
+		int odd = 0; //í™€ìˆ˜í•©
+		int even = 0; //ì§ìˆ˜í•©
 		for(int i = 1; i <= 10; i++) {
-			//È¦¼öÀÌ¸é odd¿¡ ÀúÀå
+			//í™€ìˆ˜ì´ë©´ oddì— ì €ì¥
 			if(i%2 ==1) {
 				odd += i;
 			} else {
 				even += i;
 			}	
 		}
-		System.out.println("ÃÑÇÕ:"+(odd+even));
-		System.out.println("Â¦¼öÇÕ:"+(odd));
-		System.out.println("È¦¼öÇÕ:"+(even));
+		System.out.println("ì´í•©:"+(odd+even));
+		System.out.println("ì§ìˆ˜í•©:"+(odd));
+		System.out.println("í™€ìˆ˜í•©:"+(even));
 	}
 }
